@@ -38,7 +38,7 @@
 
 
 .grid-item {
-	height: 240px;
+	height: 260px;
 }
 
 .img-item{
@@ -68,7 +68,11 @@
 		grid-template-columns: repeat(2, 1fr);
 	} 
 
-	#cr-polkdh {height: auto}	
+	#cr-polkdh {height: auto}
+
+	.grid-item {
+		height: 390px;
+	}
 	
 }
 
@@ -84,5 +88,8 @@
 		width: 100%;
 	}
 
+	.grid-item {
+		height: 280px;
+	}
 }
 
