@@ -1,16 +1,19 @@
 .body-blog {
     color: var(--content-text-color);
+    background-image: url("https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif");
+    background-position: 0 0;
+    background-size: 200px;
+    background-color: #16171b;
+    -webkit-font-smoothing: antialiased;
 }
 
 .cr-section-blog-main {
-    background-color: var(--main-background);
     align-items: center;
 }
 
 .cr-section-title-blog {
     min-height: 250px;
     padding: 40px 0;
-    background-color: var( --main-background);
     align-items: center;
 }
 .cr-container-blog{
@@ -44,26 +47,43 @@
     width: 100%;
     overflow: hidden;
     border-radius: 20px;
+    background-color: #222326!important;
+    background: url("https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif");
+    background-position: 0,0;
+    background-size: 200px;
+    text-decoration: none;
+    color: var(--content-text-color);
+    transition: 0.3s;
 }
 
+.cr-article-main:hover {
+    scale: 1.02;
+}
+
+.noisy-image-noise {
+    background-image: url("https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif");
+    background-position: 0 0;
+    background-size: 200px;
+    position: absolute;
+    inset: 0%;
+}
 .cr-img-main-article {
     width: 40%;
     height: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .cr-img-article{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
 }
 
 .cr-info-main-article {
     width: 60%;
     padding: 64px;
-    background-color: #222326!important;
-    background: url("https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif");
-    background-position: 0,0;
-    background-size: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,4 +95,15 @@
     font-weight: 400;
     line-height: 1.25;
     margin-bottom: 15px;
+}
+
+.cr-container-blog__article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.list-item{
+    height: 720px;
+    background-color: antiquewhite;
 }
