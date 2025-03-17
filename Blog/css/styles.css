@@ -53,12 +53,8 @@
     background-size: 200px;
     text-decoration: none;
     color: var(--content-text-color);
-    transition: 0.3s;
 }
 
-.cr-article-main:hover {
-    scale: 1.02;
-}
 
 .cr-img-main-article {
     width: 40%;
@@ -135,7 +131,6 @@
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    transition: 0.3s;
 
     background-color: #222326!important;
     background: url("https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif");
@@ -143,9 +138,6 @@
     background-size: 200px;
 }
 
-.article-list__item:hover {
-    scale: 1.02;
-}
 
 .article-list-item__img {
     width: 100%;
