@@ -140,13 +140,13 @@ a{text-decoration: none;}
     }
 
     .bar {
-        height: 4px;
-        width: 32px;
+        height: 2px;
+        width: 28px;
         margin: 5px 0;
     }
 
     .hamburger--open .bar:nth-child(3) {
-        transform: translateY(-11px) rotate(-45deg);
+        transform: translateY(-12px) rotate(-45deg);
     }
 
     .nav img { 

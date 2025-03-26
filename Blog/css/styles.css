@@ -247,6 +247,17 @@
 }
 
 @media(max-width: 480px){
+
+    .cr-container-title-blog {
+        align-items: start;
+    }
+
+    .title-blog{
+        font-size: 60px;
+        line-height: 1;
+        width: 85%;
+    }
+
     .cr-article-main {
         flex-direction: column;
         height: 960px;
