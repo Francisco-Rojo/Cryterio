@@ -191,7 +191,7 @@ a{text-decoration: none;}
 }
 
 .icon-social-media {
-    width: 24px;
+    color:#FFF;
 }
 
 
@@ -201,10 +201,10 @@ a{text-decoration: none;}
     height: 100svh;
     align-items: end;
     background-color: #000000;
-    background-image: url(../img/sencillo-adiccion.webp);
+    background-image: url(../img/banner-2025.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 
 }
 
@@ -219,19 +219,32 @@ a{text-decoration: none;}
 #cr-fnfrui {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     row-gap: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#cr-fnfrui h2 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #cr-fnfrui img {
     width: 420px;
 }
 
+#cr-hgised p {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 #cr-hsjauo {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .item-social-element {
@@ -286,7 +299,8 @@ a{text-decoration: none;}
 @media(max-width: 480px) {
 
     #cr-uralss {
-        background-image: url(../img/sencillo-adiccion-movil.webp);
+        background-image: url(../img/banner-2025-movil.webp);
+        background-size: contain;
         background-color: black;
     }
 
