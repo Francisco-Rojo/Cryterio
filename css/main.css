@@ -201,7 +201,7 @@ a{text-decoration: none;}
     height: 100svh;
     align-items: end;
     background-color: #000000;
-    background-image: url(../img/banner-2025.webp);
+    background-image: url(../img/bann-desk.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -299,7 +299,7 @@ a{text-decoration: none;}
 @media(max-width: 480px) {
 
     #cr-uralss {
-        background-image: url(../img/banner-2025-movil.webp);
+        background-image: url(../img/bann-movil.webp);
         background-size: contain;
         background-color: black;
     }
